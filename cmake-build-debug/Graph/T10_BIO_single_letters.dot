@@ -1,0 +1,29 @@
+digraph Hasse {
+  rankdir=BT;
+  node [shape=circle];
+  n0 [label="C"];
+  n1 [label="S"];
+  n2 [label="T"];
+  n3 [label="A"];
+  n4 [label="G"];
+  n5 [label="P"];
+  n6 [label="D"];
+  n7 [label="E"];
+  n8 [label="Q"];
+  n9 [label="N"];
+  n10 [label="H"];
+  n11 [label="R"];
+  n12 [label="K"];
+  n13 [label="M"];
+  n14 [label="I"];
+  n15 [label="L"];
+  n16 [label="V"];
+  n17 [label="W"];
+  n18 [label="Y"];
+  n19 [label="F"];
+  // Extreme characteristics:
+  // Minimal elements: [C, S, T, A, G, P, D, E, Q, N, H, R, K, M, I, L, V, W, Y, F]
+  // Maximal elements: [C, S, T, A, G, P, D, E, Q, N, H, R, K, M, I, L, V, W, Y, F]
+  // Height: 1
+  // Width: 20
+}

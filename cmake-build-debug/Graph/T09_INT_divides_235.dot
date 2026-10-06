@@ -1,0 +1,60 @@
+digraph Hasse {
+  rankdir=BT;
+  node [shape=circle];
+  n0 [label="1"];
+  n1 [label="5"];
+  n2 [label="3"];
+  n3 [label="15"];
+  n4 [label="9"];
+  n5 [label="45"];
+  n6 [label="2"];
+  n7 [label="10"];
+  n8 [label="6"];
+  n9 [label="30"];
+  n10 [label="18"];
+  n11 [label="90"];
+  n12 [label="4"];
+  n13 [label="20"];
+  n14 [label="12"];
+  n15 [label="60"];
+  n16 [label="36"];
+  n17 [label="180"];
+  n0 -> n1;
+  n0 -> n2;
+  n0 -> n6;
+  n1 -> n3;
+  n1 -> n7;
+  n2 -> n3;
+  n2 -> n4;
+  n2 -> n8;
+  n3 -> n5;
+  n3 -> n9;
+  n4 -> n5;
+  n4 -> n10;
+  n5 -> n11;
+  n6 -> n7;
+  n6 -> n8;
+  n6 -> n12;
+  n7 -> n9;
+  n7 -> n13;
+  n8 -> n9;
+  n8 -> n10;
+  n8 -> n14;
+  n9 -> n11;
+  n9 -> n15;
+  n10 -> n11;
+  n10 -> n16;
+  n11 -> n17;
+  n12 -> n13;
+  n12 -> n14;
+  n13 -> n15;
+  n14 -> n15;
+  n14 -> n16;
+  n15 -> n17;
+  n16 -> n17;
+  // Extreme characteristics:
+  // Minimal elements: [1]
+  // Maximal elements: [180]
+  // Height: 6
+  // Width: 5
+}

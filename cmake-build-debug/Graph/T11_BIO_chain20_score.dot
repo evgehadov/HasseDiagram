@@ -1,0 +1,48 @@
+digraph Hasse {
+  rankdir=BT;
+  node [shape=circle];
+  n0 [label="C"];
+  n1 [label="CS"];
+  n2 [label="CST"];
+  n3 [label="CSTA"];
+  n4 [label="CSTAG"];
+  n5 [label="CSTAGP"];
+  n6 [label="CSTAGPD"];
+  n7 [label="CSTAGPDE"];
+  n8 [label="CSTAGPDEQ"];
+  n9 [label="CSTAGPDEQN"];
+  n10 [label="CSTAGPDEQNH"];
+  n11 [label="CSTAGPDEQNHR"];
+  n12 [label="CSTAGPDEQNHRK"];
+  n13 [label="CSTAGPDEQNHRKM"];
+  n14 [label="CSTAGPDEQNHRKMI"];
+  n15 [label="CSTAGPDEQNHRKMIL"];
+  n16 [label="CSTAGPDEQNHRKMILV"];
+  n17 [label="CSTAGPDEQNHRKMILVW"];
+  n18 [label="CSTAGPDEQNHRKMILVWY"];
+  n19 [label="CSTAGPDEQNHRKMILVWYF"];
+  n0 -> n1;
+  n1 -> n2;
+  n2 -> n3;
+  n3 -> n4;
+  n4 -> n5;
+  n5 -> n6;
+  n6 -> n7;
+  n7 -> n8;
+  n8 -> n9;
+  n9 -> n10;
+  n10 -> n11;
+  n11 -> n12;
+  n12 -> n13;
+  n13 -> n14;
+  n14 -> n15;
+  n15 -> n16;
+  n16 -> n17;
+  n17 -> n18;
+  n18 -> n19;
+  // Extreme characteristics:
+  // Minimal elements: [C]
+  // Maximal elements: [CSTAGPDEQNHRKMILVWYF]
+  // Height: 20
+  // Width: 1
+}

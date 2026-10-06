@@ -1,0 +1,38 @@
+digraph Hasse {
+  rankdir=BT;
+  node [shape=circle];
+  n0 [label="A"];
+  n1 [label="AB"];
+  n2 [label="ACB"];
+  n3 [label="AXCB"];
+  n4 [label="ZAXCB"];
+  n5 [label="ZAXRCB"];
+  n6 [label="ZQAXRCB"];
+  n7 [label="ZQAXRCPB"];
+  n8 [label="ZQAXRCPBD"];
+  n9 [label="MZQAXRCPBD"];
+  n10 [label="MZQAXRCPBDE"];
+  n11 [label="MZQAXRCPBDEF"];
+  n12 [label="MZQAXRCPBDEFG"];
+  n13 [label="MZQAXRCPBDEFGH"];
+  n14 [label="MZQAXRCPBDEFGHI"];
+  n0 -> n1;
+  n1 -> n2;
+  n2 -> n3;
+  n3 -> n4;
+  n4 -> n5;
+  n5 -> n6;
+  n6 -> n7;
+  n7 -> n8;
+  n8 -> n9;
+  n9 -> n10;
+  n10 -> n11;
+  n11 -> n12;
+  n12 -> n13;
+  n13 -> n14;
+  // Extreme characteristics:
+  // Minimal elements: [A]
+  // Maximal elements: [MZQAXRCPBDEFGHI]
+  // Height: 15
+  // Width: 1
+}
