@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 
-project(LabaAvtomat)
+project(HasseDiagram)
 
 set(CMAKE_CXX_STANDARD 20)
 
@@ -12,9 +12,9 @@ if (NOT TARGET glfw3::glfw)
     add_library(glfw3::glfw ALIAS glfw)
 endif()
 
-add_executable(LabaAvtomat main.cpp)
+add_executable(HasseDiagram main.cpp)
 
-target_link_libraries(LabaAvtomat
+target_link_libraries(HasseDiagram
         OpenGL::GL
         glfw3::glfw
         GLUT::GLUT
