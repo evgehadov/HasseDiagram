@@ -1,3 +1,0 @@
-/Users/meremikhina/Desktop/LabaAvtomat/cmake-build-debug/CMakeFiles/LabaAvtomat.dir
-/Users/meremikhina/Desktop/LabaAvtomat/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/meremikhina/Desktop/LabaAvtomat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
